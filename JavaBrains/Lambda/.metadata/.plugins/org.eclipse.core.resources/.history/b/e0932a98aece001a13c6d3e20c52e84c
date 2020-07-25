@@ -1,7 +1,0 @@
-package ar.com.javabrains.lambdas;
-
-public interface Greeting {
-	
-	void sayHello();
-
-}

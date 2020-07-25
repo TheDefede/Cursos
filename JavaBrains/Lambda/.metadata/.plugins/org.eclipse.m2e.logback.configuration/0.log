@@ -9,3 +9,5 @@
 2020-07-25 19:11:28,514 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrains:junit-5-basics:1.0-SNAPSHOT @ C:\Cursos\JavaBrains\Junit\junit-5-basics\pom.xml.
 2020-07-25 19:11:29,260 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-07-25 19:11:29,262 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Cursos\JavaBrains\Junit\junit-5-basics\src\main\resources
+2020-07-25 19:11:29,265 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 19:11:29,266 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Cursos\JavaBrains\Junit\junit-5-basics\src\test\resources
