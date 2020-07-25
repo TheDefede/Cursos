@@ -1,0 +1,11 @@
+package ar.com.javabrains.lambdas;
+
+public class String {
+
+	public static void main(java.lang.String[] args) {
+		
+		String a = new String("abc");
+
+	}
+
+}

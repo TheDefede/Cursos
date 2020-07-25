@@ -1,0 +1,9 @@
+package ar.com.javabrains.lambdas;
+
+public class Person {
+	
+	private String firstName;
+	private int edad;
+	private String lastName;
+
+}

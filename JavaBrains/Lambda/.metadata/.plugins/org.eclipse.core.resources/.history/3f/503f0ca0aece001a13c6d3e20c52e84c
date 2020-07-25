@@ -1,0 +1,19 @@
+package ar.com.javabrains.lambdas;
+
+
+
+public class StringDemo {
+	
+	static Greeting greet = () -> "Hola";
+	
+
+	
+	
+
+	public static void main(java.lang.String[] args) {
+		
+		greet.sayHello();
+		
+	}
+
+}

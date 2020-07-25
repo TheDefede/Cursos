@@ -1,0 +1,12 @@
+package ar.com.javabrains.lambdas;
+
+public class String {
+
+	public static void main(java.lang.String[] args) {
+		
+		StringDemo a = new StringDemo();
+		
+		a = "abc";
+	}
+
+}
