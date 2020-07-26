@@ -3,27 +3,25 @@ package ar.com.javabrains.lambdas;
 import java.util.Arrays;
 import java.util.List;
 
-public class CollectionIterationExample {
+public class StreamsExample {
 
 	public static void main(String[] args) {
+		
 		List<Person> people = Arrays.asList(
 				new Person("Fede", 25, "Martinez"),
 				new Person("kelly", 30, "Davalos"),
 				new Person("Marisa", 21, "Davalos")				
 				);
 		
-		/*for (int i = 0; i < people.size(); i++) {
-			System.out.println(people.get(i));
-		}
+		people.stream()
+		.filter(p->p.getLastName().startsWith("D"))
+		.forEach(p->System.out.println(p.getLastName()));
 		
-		for (Person person : people) {
-			System.out.println(person);
-		}*/
+		Long count = people.parallelStream()
+		.filter(p->p.getLastName().startsWith("D"))
+		.count();
 		
-		people.forEach(System.out::println);
-		
-		 
-
+		System.out.println(count);
 	}
 
-} 
+}
