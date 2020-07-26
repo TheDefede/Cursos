@@ -30,6 +30,10 @@ public class Person{
 		this.edad = edad;
 		this.lastName = lastName;
 	}
+	@Override
+	public String toString() {
+		return "Person [firstName=" + firstName + ", edad=" + edad + ", lastName=" + lastName + "]";
+	}
 
 	
 	
