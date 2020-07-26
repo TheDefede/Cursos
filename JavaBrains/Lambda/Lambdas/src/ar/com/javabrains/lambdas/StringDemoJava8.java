@@ -18,40 +18,15 @@ public class StringDemoJava8 {
 		
 		Collections.sort(people, (o1, o2) -> o1.getLastName().compareTo(o2.getLastName()));
 		
-		/*new Comparator<Person>(){
 
-			@Override
-			public int compare(Person o1, Person o2) {
-				return o1.getLastName().compareTo(o2.getLastName());			
-			}
-		}*/
 		
+		printWithCondition(people, p -> true);
 		
-		printAll(people);
+		printWithCondition(people, p-> p.getLastName().startsWith("D"));
 		
-		printWithCondition(people, (p)-> p.getLastName().startsWith("D"));
-		
-		/*new Condition() {
 
-			@Override
-			public boolean test(Person p) {
-				
-				return p.getLastName().startsWith("D");
-			}
-			
-		}*/
 		
 		printWithCondition(people,(p)-> p.getFirstName().startsWith("F"));
-		
-		/* new Condition() {
-
-				@Override
-				public boolean test(Person p) {
-					
-					return p.getFirstName().startsWith("F");
-				}
-				
-			}*/
 
 	}
 	
@@ -68,12 +43,6 @@ public class StringDemoJava8 {
 	}
 	
 
-	private static void printAll(List<Person> people) {
-		for (Person person : people) {
-			System.out.println(person);
-		}
-		
-	}
 	
 
 
