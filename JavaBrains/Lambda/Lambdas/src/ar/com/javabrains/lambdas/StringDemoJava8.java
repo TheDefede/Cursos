@@ -3,8 +3,7 @@ package ar.com.javabrains.lambdas;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-
-import ar.com.javabrains.lambdas.StringDemo.Condition;
+import java.util.function.Predicate;
 
 public class StringDemoJava8 {
 
@@ -32,7 +31,7 @@ public class StringDemoJava8 {
 	
 	
 
-	private static void printWithCondition(List<Person> people, Condition condition) {
+	private static void printWithCondition(List<Person> people, Predicate<Person> condition) {
 		for (Person person : people) {
 			if(condition.test(person)) {
 				System.out.println(person);
