@@ -12,11 +12,11 @@ public class ClosureExample {
 	}
 
 
-	public static void doProcess(int i, Process p){
-		p.process(i);
+	public static void doProcess(int i, Processs p){
+		p.processs(i);
 	}
 
-	interface Process{
-		void process(int i);
+	public interface Processs{
+		void processs(int i);
 	}
 }
