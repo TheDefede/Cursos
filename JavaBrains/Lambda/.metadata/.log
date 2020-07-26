@@ -992,3 +992,72 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:13:49.293
 !MESSAGE executing callback sts4.classpath.eKIAEyXw SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:38.629
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.eKIAEyXw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:38.630
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.eKIAEyXw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:38.631
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:38.632
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.eKIAEyXw => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:53.110
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:53.111
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@64bcf689[org.springframework.tooling.boot.ls:1.19.0.202006181152(id=636)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:53.112
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:54.835
+!MESSAGE Boot LS startup time from start to initialized: 1720ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:54.870
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AoJitrGTisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:54.871
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:54.873
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:54.874
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:54.876
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:54.877
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:54.878
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:54.879
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AoJitrGT => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:54.882
+!MESSAGE classpath=20 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:54.885
+!MESSAGE buffering callback sts4.classpath.AoJitrGT Lambdas false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:54.886
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:54.890
+!MESSAGE classpath=29 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:54.894
+!MESSAGE buffering callback sts4.classpath.AoJitrGT junit-5-basics false 29
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:54.895
+!MESSAGE executing callback sts4.classpath.AoJitrGT 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 10:45:54.925
+!MESSAGE executing callback sts4.classpath.AoJitrGT SUCCESS [done]
